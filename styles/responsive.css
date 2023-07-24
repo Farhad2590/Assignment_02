@@ -1,0 +1,137 @@
+/* Responsive portion start */
+@media screen and (max-width: 992px) {
+    .navbar {
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-item ul {
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+    .nav-item ul li {
+        padding-top: 15px;
+    }
+
+    .funny-videos .video-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .we-are-gamer .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .we-are-gamer .wrapper .left img {
+        width: 100%;
+    }
+
+    .we-are-gamer .wrapper .right {
+        width: 100%;
+        max-width: 520px;
+        text-align: center;
+    }
+
+
+    .funny-videos .video-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner {
+        padding: 10px 10px;
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+
+    .banner-img {
+        width: 70%;
+    }
+
+    .banner-text {
+        width: 77%;
+        text-align: center;
+    }
+
+    .banner-text h2 {
+        font-size: 2.4rem;
+    }
+
+    .banner-text .small-text {
+        text-align: left;
+    }
+
+    .image-override {
+        grid-template-columns: 1fr;
+    }
+
+    .play-instantly .image-override .left {
+        text-align: center;
+    }
+
+    .career-sec .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .career-sec .left .career-positions .career-position p {
+        font-size: 18px;
+    }
+
+    .icon {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 10px 100px;
+        align-items: flex-start;
+        font-size: xx-large;
+        gap: 30px;
+    }
+
+    .policy {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .last-text {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .banner {
+        justify-content: center;
+        align-items: center;
+        padding: 20px 30px;
+        gap: 10px;
+    }
+
+    .banner-text {
+        width: 50%;
+    }
+
+    .banner-img {
+        width: 50%;
+    }
+
+    .button-1 {
+        border-radius: 48px;
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+
+    .button-2 {
+        border-radius: 48px;
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+
+    .funny-videos .video-cards {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+}
